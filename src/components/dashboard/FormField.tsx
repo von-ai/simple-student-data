@@ -22,7 +22,7 @@ const FormField: React.FC<FormFieldProps> = ({ onSubmitData }) => {
   };
 
   return (
-    <section className="bg-white w-full p-10 rounded-md shadow-md">
+    <section className="bg-white w-full p-10 rounded-md shadow-xs">
       <h2 className="text-xl font-semibold text-primer mb-8 border-b pb-3">
         Formulir Data Mahasiswa
       </h2>

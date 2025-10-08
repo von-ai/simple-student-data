@@ -21,7 +21,7 @@ const DashboardPage = () => {
       <div className="pt-3">
         <FormField onSubmitData={handleFormSubmit} />
       </div>
-      <div>
+      <div className="pt-3">
         <TabelData data={dataMhs} />
       </div>
     </>
