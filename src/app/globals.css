@@ -52,11 +52,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-  margin: var(--main-margin-y) var(--main-margin-x);
-  min-height: 80vh;
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
@@ -65,4 +60,9 @@ body {
   display: flex;
   flex-direction: column;
   color: black;
+}
+
+main {
+  margin: var(--main-margin-y) var(--main-margin-x);
+  min-height: 80vh;
 }
