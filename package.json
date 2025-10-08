@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "iconsax-reactjs": "^0.0.8",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
     "next": "15.5.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-hook-form": "^7.64.0"
+    "react-hook-form": "^7.64.0",
+    "react-papaparse": "^4.4.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

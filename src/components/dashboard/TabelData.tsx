@@ -6,9 +6,14 @@ import { Filter } from '../types/tabel-data-type';
 type TabelDataProps = {
   data: Input[];
   onClearAll?: () => void;
+  onDataChange?: (newData: Input[]) => void;
 };
 
-const TabelData: React.FC<TabelDataProps> = ({ data, onClearAll }) => {
+const TabelData: React.FC<TabelDataProps> = ({
+  data,
+  onClearAll,
+  onDataChange,
+}) => {
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedJurusan, setSelectedJurusan] = useState<string>('Semua');
@@ -58,6 +63,7 @@ const TabelData: React.FC<TabelDataProps> = ({ data, onClearAll }) => {
     if (confirm('Ingin Menghapus Semua Data?')) {
       setLocalData([]);
       if (onClearAll) onClearAll();
+      if (onDataChange) onDataChange([]); // <-- update parent
     }
   };
 
@@ -90,9 +96,13 @@ const TabelData: React.FC<TabelDataProps> = ({ data, onClearAll }) => {
     if (selectedRows.size === 0) return;
     if (!confirm('Yakin ingin menghapus data yang terpilih?')) return;
 
-    setLocalData((prev) => prev.filter((_, idx) => !selectedRows.has(idx)));
+    setLocalData((prev) => {
+      const newData = prev.filter((_, idx) => !selectedRows.has(idx));
+      if (onDataChange) onDataChange(newData); // <-- update parent juga
+      return newData;
+    });
+
     setSelectedRows(new Set());
-    if (onClearAll) onClearAll();
   };
 
   //Sorting nama

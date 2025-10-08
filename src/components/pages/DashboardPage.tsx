@@ -16,13 +16,19 @@ const DashboardPage = () => {
         <Navbar />
       </div>
       <div className="pt-3">
-        <Heading />
+        <Heading
+          data={dataMhs}
+          onImport={(importedData) => setDataMhs(importedData)}
+        />
       </div>
       <div className="pt-3">
         <FormField onSubmitData={handleFormSubmit} />
       </div>
       <div className="pt-3">
-        <TabelData data={dataMhs} />
+        <TabelData
+          data={dataMhs}
+          onDataChange={(newData) => setDataMhs(newData)}
+        />
       </div>
     </>
   );
