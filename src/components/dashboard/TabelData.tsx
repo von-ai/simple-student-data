@@ -7,12 +7,14 @@ type TabelDataProps = {
   data: Input[];
   onClearAll?: () => void;
   onDataChange?: (newData: Input[]) => void;
+  onEdit?: (nim: string) => void;
 };
 
 const TabelData: React.FC<TabelDataProps> = ({
   data,
   onClearAll,
   onDataChange,
+  onEdit,
 }) => {
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
@@ -24,8 +26,8 @@ const TabelData: React.FC<TabelDataProps> = ({
   const [localData, setLocalData] = useState<Input[]>(data);
 
   useEffect(() => {
-    setLocalData(data);
-  }, [data]);
+    setLocalData([...data]);
+  }, [JSON.stringify(data)]);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -63,7 +65,7 @@ const TabelData: React.FC<TabelDataProps> = ({
     if (confirm('Ingin Menghapus Semua Data?')) {
       setLocalData([]);
       if (onClearAll) onClearAll();
-      if (onDataChange) onDataChange([]); // <-- update parent
+      if (onDataChange) onDataChange([]);
     }
   };
 
@@ -98,11 +100,21 @@ const TabelData: React.FC<TabelDataProps> = ({
 
     setLocalData((prev) => {
       const newData = prev.filter((_, idx) => !selectedRows.has(idx));
-      if (onDataChange) onDataChange(newData); // <-- update parent juga
+      if (onDataChange) onDataChange(newData);
       return newData;
     });
 
     setSelectedRows(new Set());
+  };
+
+  const handleDelete = (nim: string) => {
+    if (!confirm(`Yakin Ingin Menghapus data dengan NIM ${nim}?`)) return;
+
+    setLocalData((prev) => {
+      const newData = prev.filter((mhs) => mhs.nim !== nim);
+      if (onDataChange) onDataChange(newData);
+      return newData;
+    });
   };
 
   //Sorting nama
@@ -256,6 +268,8 @@ const TabelData: React.FC<TabelDataProps> = ({
                 <th className="py-2 px-3 text-left">Email</th>
                 <th className="py-2 px-3 text-left">IPK</th>
                 <th className="py-2 px-3 text-left">Catatan</th>
+                <th className="py-2 px-3 text-left">Foto</th>
+                <th className="py-2 px-3 text-left">Aksi</th>
               </tr>
             </thead>
             <tbody>
@@ -283,6 +297,35 @@ const TabelData: React.FC<TabelDataProps> = ({
                     <td className="py-2 px-3">{mhs.email}</td>
                     <td className="py-2 px-3">{mhs.ipk}</td>
                     <td className="py-2 px-3">{mhs.catatan}</td>
+                    <td className="py-2 px-3">
+                      {mhs.image ? (
+                        <img
+                          src={mhs.image}
+                          alt={mhs.nama}
+                          className="w-15 h-15 object-cover rounded-md border"
+                        />
+                      ) : (
+                        <span className="text-gray-400 italic text-sm">
+                          Tidak ada foto
+                        </span>
+                      )}
+                    </td>
+                    <td>
+                      <span className="flex gap-2">
+                        <button
+                          onClick={() => onEdit && onEdit(mhs.nim)}
+                          className="bg-primer px-3 py-2 rounded-md text-white hover:bg-hover transition ease-in-out duration-300 "
+                        >
+                          Edit
+                        </button>
+                        <button
+                          onClick={() => handleDelete(mhs.nim)}
+                          className="bg-sekunder px-3 py-2 rounded-md text-white hover:bg-hover transition ease-in-out duration-300"
+                        >
+                          Hapus
+                        </button>
+                      </span>
+                    </td>
                   </tr>
                 );
               })}

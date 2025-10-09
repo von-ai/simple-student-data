@@ -118,8 +118,6 @@ const Heading: React.FC<HeadingProps> = ({ data, onImport }) => {
             image: new File([], 'placeholder.png'),
           }));
           onImport(importedData);
-          //alert untuk jumlah data
-          alert(`Data berhasil diimport! Jumlah data: ${importedData.length}`);
           if (fileInputRef.current) {
             fileInputRef.current.value = '';
           }
