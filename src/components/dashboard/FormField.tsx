@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import {
   Input,
@@ -11,11 +11,55 @@ import {
 
 type FormFieldProps = {
   onSubmitData: (data: Input) => void;
+  existingData: Input[];
+  editingData?: Input | null;
 };
 
-const FormField: React.FC<FormFieldProps> = ({ onSubmitData }) => {
+const FormField: React.FC<FormFieldProps> = ({
+  onSubmitData,
+  existingData,
+  editingData,
+}) => {
   const { register, handleSubmit, reset } = useForm<Input>();
+
+  useEffect(() => {
+    if (editingData) {
+      reset(editingData);
+    } else {
+      reset({
+        nama: '',
+        nim: '',
+        jurusan: undefined,
+        angkatan: undefined,
+        email: '',
+        ipk: 0,
+        catatan: '',
+        image: undefined,
+      });
+    }
+  }, [editingData, reset]);
+
   const onSubmit: SubmitHandler<Input> = (data) => {
+    if (editingData) {
+      onSubmitData(data);
+      reset();
+      return;
+    }
+
+    const nimExists = existingData.some(
+      (item) => item.nim.trim().toLowerCase() === data.nim.trim().toLowerCase()
+    );
+
+    if (nimExists) {
+      alert(`NIM ${data.nim} sudah terdaftar!`);
+      return;
+    }
+
+    const file = (data.image as unknown as FileList)?.[0];
+    if (file) {
+      const imageUrl = URL.createObjectURL(file);
+      data.image = imageUrl as any;
+    }
     console.log('form data:', data);
     onSubmitData(data);
     reset();
@@ -148,7 +192,7 @@ const FormField: React.FC<FormFieldProps> = ({ onSubmitData }) => {
             type="submit"
             className="bg-primer hover:bg-hover text-white font-medium px-5 py-2 rounded-md transition duration-300"
           >
-            Submit
+            {editingData ? 'Perbarui' : 'Submit'}
           </button>
         </div>
       </form>

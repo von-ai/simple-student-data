@@ -20,14 +20,14 @@ html {
 
 @media (min-width: 768px) {
   :root {
-    --main-margin-x: 2rem;
+    --main-margin-x: 1rem;
     --main-margin-y: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   :root {
-    --main-margin-x: 4rem;
+    --main-margin-x: 2rem;
     --main-margin-y: 2rem;
   }
 }
