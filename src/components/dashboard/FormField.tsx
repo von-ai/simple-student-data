@@ -32,7 +32,7 @@ const FormField: React.FC<FormFieldProps> = ({
         jurusan: undefined,
         angkatan: undefined,
         email: '',
-        ipk: 0,
+        ipk: '',
         catatan: '',
         image: undefined,
       });
