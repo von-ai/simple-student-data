@@ -1,0 +1,126 @@
+nama,nim,jurusan,angkatan,email,ipk,image,catatan
+Admiral Zuhdi,D110463547,Teknik Pertambangan,2026,zuhdivon@gmail.com,3.0,[object FileList],Berprestasi
+Ahmad Fulan,D220400646,Teknik Pertambangan,2026,zuhdivon@gmail.com,3.0,[object FileList],Berprestasi
+Muhammad Fulan,D787212195,Teknik Pertambangan,2026,zuhdivon@gmail.com,3.0,[object FileList],Berprestasi
+Muh. Fulan,D604131532,Teknik Pertambangan,2026,zuhdivon@gmail.com,3.0,[object FileList],Berprestasi
+Siti Fulani,D802076487,Teknik Informatika,2025,zuhdivon@gmail.com,4.0,[object FileList],Berprestasi
+Fulani Awaliah,D856985129,Teknik Informatika,2019,zuhdivon@gmail.com,3.0,[object FileList],Berprestasi
+Mahasiswa 7,D658567246,Teknik Lingkungan,2023,mahasiswa.7@kampus.ac.id,3.17,https://example.com/image.jpg,Magang
+Mahasiswa 8,D298567297,Teknik Mesin,2020,mahasiswa.8@kampus.ac.id,2.72,https://example.com/image.jpg,Magang
+Mahasiswa 9,D126758811,Teknik Elektro,2021,mahasiswa.9@kampus.ac.id,3.26,https://example.com/image.jpg,Magang
+Mahasiswa 10,D892128687,Teknik Kimia,2023,mahasiswa.10@kampus.ac.id,3.0,https://example.com/image.jpg,Cuti
+Mahasiswa 11,D336457852,Teknik Elektro,2020,mahasiswa.11@kampus.ac.id,3.81,https://example.com/image.jpg,Sedang TA
+Mahasiswa 12,D384056257,Teknik Industri,2021,mahasiswa.12@kampus.ac.id,3.74,https://example.com/image.jpg,Sedang TA
+Mahasiswa 13,D765651016,Teknik Informatika,2021,mahasiswa.13@kampus.ac.id,2.53,https://example.com/image.jpg,Sedang TA
+Mahasiswa 14,D403509232,Teknik Sipil,2019,mahasiswa.14@kampus.ac.id,2.56,https://example.com/image.jpg,Sedang TA
+Mahasiswa 15,D470368640,Teknik Sipil,2020,mahasiswa.15@kampus.ac.id,2.98,https://example.com/image.jpg,Cuti
+Mahasiswa 16,D401501780,Teknik Arsitektur,2022,mahasiswa.16@kampus.ac.id,3.83,https://example.com/image.jpg,Aktif
+Mahasiswa 17,D506284486,Teknik Arsitektur,2019,mahasiswa.17@kampus.ac.id,3.45,https://example.com/image.jpg,Sedang TA
+Mahasiswa 18,D714803104,Teknik Elektro,2019,mahasiswa.18@kampus.ac.id,3.6,https://example.com/image.jpg,Magang
+Mahasiswa 19,D640687651,Teknik Lingkungan,2020,mahasiswa.19@kampus.ac.id,2.8,https://example.com/image.jpg,Magang
+Mahasiswa 20,D702646888,Teknik Kimia,2020,mahasiswa.20@kampus.ac.id,2.69,https://example.com/image.jpg,Lulus
+Mahasiswa 21,D179305643,Teknik Arsitektur,2019,mahasiswa.21@kampus.ac.id,2.65,https://example.com/image.jpg,Sedang TA
+Mahasiswa 22,D345812414,Teknik Kimia,2019,mahasiswa.22@kampus.ac.id,3.35,https://example.com/image.jpg,Aktif
+Mahasiswa 23,D409891985,Teknik Informatika,2021,mahasiswa.23@kampus.ac.id,2.7,https://example.com/image.jpg,Aktif
+Mahasiswa 24,D960808696,Teknik Sipil,2023,mahasiswa.24@kampus.ac.id,3.31,https://example.com/image.jpg,Magang
+Mahasiswa 25,D888675541,Teknik Industri,2022,mahasiswa.25@kampus.ac.id,3.29,https://example.com/image.jpg,Cuti
+Mahasiswa 26,D489082630,Teknik Arsitektur,2019,mahasiswa.26@kampus.ac.id,3.18,https://example.com/image.jpg,Cuti
+Mahasiswa 27,D939598234,Teknik Arsitektur,2022,mahasiswa.27@kampus.ac.id,3.3,https://example.com/image.jpg,Lulus
+Mahasiswa 28,D176286633,Teknik Industri,2023,mahasiswa.28@kampus.ac.id,2.69,https://example.com/image.jpg,Aktif
+Mahasiswa 29,D957400092,Teknik Mesin,2022,mahasiswa.29@kampus.ac.id,3.23,https://example.com/image.jpg,Sedang TA
+Mahasiswa 30,D824682084,Teknik Mesin,2023,mahasiswa.30@kampus.ac.id,2.5,https://example.com/image.jpg,Sedang TA
+Mahasiswa 31,D423228918,Teknik Mesin,2019,mahasiswa.31@kampus.ac.id,3.48,https://example.com/image.jpg,Magang
+Mahasiswa 32,D574929457,Teknik Kimia,2021,mahasiswa.32@kampus.ac.id,3.55,https://example.com/image.jpg,Sedang TA
+Mahasiswa 33,D742507249,Teknik Arsitektur,2022,mahasiswa.33@kampus.ac.id,3.46,https://example.com/image.jpg,Lulus
+Mahasiswa 34,D125862072,Teknik Sipil,2019,mahasiswa.34@kampus.ac.id,2.74,https://example.com/image.jpg,Lulus
+Mahasiswa 35,D884215478,Teknik Informatika,2023,mahasiswa.35@kampus.ac.id,3.44,https://example.com/image.jpg,Lulus
+Mahasiswa 36,D381534560,Teknik Mesin,2021,mahasiswa.36@kampus.ac.id,3.46,https://example.com/image.jpg,Magang
+Mahasiswa 37,D319563759,Teknik Industri,2022,mahasiswa.37@kampus.ac.id,3.87,https://example.com/image.jpg,Cuti
+Mahasiswa 38,D109654936,Teknik Sipil,2023,mahasiswa.38@kampus.ac.id,2.69,https://example.com/image.jpg,Cuti
+Mahasiswa 39,D849837796,Teknik Lingkungan,2021,mahasiswa.39@kampus.ac.id,3.01,https://example.com/image.jpg,Sedang TA
+Mahasiswa 40,D779559565,Teknik Kimia,2021,mahasiswa.40@kampus.ac.id,3.39,https://example.com/image.jpg,Cuti
+Mahasiswa 41,D893446198,Teknik Arsitektur,2019,mahasiswa.41@kampus.ac.id,2.99,https://example.com/image.jpg,Sedang TA
+Mahasiswa 42,D233012772,Teknik Informatika,2023,mahasiswa.42@kampus.ac.id,2.78,https://example.com/image.jpg,Lulus
+Mahasiswa 43,D170118516,Teknik Industri,2023,mahasiswa.43@kampus.ac.id,2.91,https://example.com/image.jpg,Cuti
+Mahasiswa 44,D923252342,Teknik Arsitektur,2019,mahasiswa.44@kampus.ac.id,2.8,https://example.com/image.jpg,Cuti
+Mahasiswa 45,D994130581,Teknik Arsitektur,2019,mahasiswa.45@kampus.ac.id,3.12,https://example.com/image.jpg,Cuti
+Mahasiswa 46,D767343961,Teknik Kimia,2023,mahasiswa.46@kampus.ac.id,3.13,https://example.com/image.jpg,Sedang TA
+Mahasiswa 47,D537177709,Teknik Industri,2022,mahasiswa.47@kampus.ac.id,3.93,https://example.com/image.jpg,Cuti
+Mahasiswa 48,D525861101,Teknik Informatika,2020,mahasiswa.48@kampus.ac.id,3.23,https://example.com/image.jpg,Aktif
+Mahasiswa 49,D472156210,Teknik Industri,2019,mahasiswa.49@kampus.ac.id,3.25,https://example.com/image.jpg,Cuti
+Mahasiswa 50,D886130159,Teknik Industri,2019,mahasiswa.50@kampus.ac.id,2.81,https://example.com/image.jpg,Sedang TA
+Mahasiswa 51,D667655628,Teknik Elektro,2022,mahasiswa.51@kampus.ac.id,3.86,https://example.com/image.jpg,Sedang TA
+Mahasiswa 52,D784641879,Teknik Mesin,2019,mahasiswa.52@kampus.ac.id,3.61,https://example.com/image.jpg,Cuti
+Mahasiswa 53,D597330903,Teknik Kimia,2023,mahasiswa.53@kampus.ac.id,3.19,https://example.com/image.jpg,Magang
+Mahasiswa 54,D153275369,Teknik Sipil,2019,mahasiswa.54@kampus.ac.id,3.36,https://example.com/image.jpg,Cuti
+Mahasiswa 55,D164866069,Teknik Lingkungan,2021,mahasiswa.55@kampus.ac.id,3.71,https://example.com/image.jpg,Sedang TA
+Mahasiswa 56,D194608941,Teknik Mesin,2021,mahasiswa.56@kampus.ac.id,3.82,https://example.com/image.jpg,Sedang TA
+Mahasiswa 57,D314308840,Teknik Informatika,2021,mahasiswa.57@kampus.ac.id,2.96,https://example.com/image.jpg,Aktif
+Mahasiswa 58,D682775314,Teknik Industri,2022,mahasiswa.58@kampus.ac.id,3.6,https://example.com/image.jpg,Cuti
+Mahasiswa 59,D991398401,Teknik Kimia,2021,mahasiswa.59@kampus.ac.id,2.9,https://example.com/image.jpg,Magang
+Mahasiswa 60,D133109451,Teknik Industri,2023,mahasiswa.60@kampus.ac.id,3.66,https://example.com/image.jpg,Sedang TA
+Mahasiswa 61,D737005433,Teknik Industri,2019,mahasiswa.61@kampus.ac.id,3.15,https://example.com/image.jpg,Cuti
+Mahasiswa 62,D989982345,Teknik Sipil,2020,mahasiswa.62@kampus.ac.id,2.53,https://example.com/image.jpg,Sedang TA
+Mahasiswa 63,D800394807,Teknik Elektro,2023,mahasiswa.63@kampus.ac.id,3.1,https://example.com/image.jpg,Sedang TA
+Mahasiswa 64,D856334240,Teknik Informatika,2021,mahasiswa.64@kampus.ac.id,3.39,https://example.com/image.jpg,Sedang TA
+Mahasiswa 65,D305143849,Teknik Elektro,2021,mahasiswa.65@kampus.ac.id,3.79,https://example.com/image.jpg,Sedang TA
+Mahasiswa 66,D437064816,Teknik Lingkungan,2020,mahasiswa.66@kampus.ac.id,3.55,https://example.com/image.jpg,Magang
+Mahasiswa 67,D441817333,Teknik Mesin,2022,mahasiswa.67@kampus.ac.id,3.63,https://example.com/image.jpg,Magang
+Mahasiswa 68,D272136462,Teknik Industri,2020,mahasiswa.68@kampus.ac.id,2.77,https://example.com/image.jpg,Cuti
+Mahasiswa 69,D680848144,Teknik Elektro,2020,mahasiswa.69@kampus.ac.id,3.05,https://example.com/image.jpg,Lulus
+Mahasiswa 70,D633308987,Teknik Industri,2021,mahasiswa.70@kampus.ac.id,3.13,https://example.com/image.jpg,Sedang TA
+Mahasiswa 71,D513149892,Teknik Sipil,2023,mahasiswa.71@kampus.ac.id,3.5,https://example.com/image.jpg,Magang
+Mahasiswa 72,D691598738,Teknik Industri,2020,mahasiswa.72@kampus.ac.id,2.7,https://example.com/image.jpg,Magang
+Mahasiswa 73,D146733421,Teknik Mesin,2019,mahasiswa.73@kampus.ac.id,3.62,https://example.com/image.jpg,Lulus
+Mahasiswa 74,D489863248,Teknik Kimia,2020,mahasiswa.74@kampus.ac.id,2.55,https://example.com/image.jpg,Aktif
+Mahasiswa 75,D585182826,Teknik Arsitektur,2022,mahasiswa.75@kampus.ac.id,3.27,https://example.com/image.jpg,Cuti
+Mahasiswa 76,D437471373,Teknik Kimia,2020,mahasiswa.76@kampus.ac.id,2.66,https://example.com/image.jpg,Lulus
+Mahasiswa 77,D708274773,Teknik Lingkungan,2022,mahasiswa.77@kampus.ac.id,3.97,https://example.com/image.jpg,Aktif
+Mahasiswa 78,D319705136,Teknik Kimia,2023,mahasiswa.78@kampus.ac.id,2.89,https://example.com/image.jpg,Sedang TA
+Mahasiswa 79,D106715539,Teknik Mesin,2021,mahasiswa.79@kampus.ac.id,3.59,https://example.com/image.jpg,Lulus
+Mahasiswa 80,D159585569,Teknik Sipil,2023,mahasiswa.80@kampus.ac.id,3.19,https://example.com/image.jpg,Cuti
+Mahasiswa 81,D699345707,Teknik Lingkungan,2021,mahasiswa.81@kampus.ac.id,3.3,https://example.com/image.jpg,Lulus
+Mahasiswa 82,D211075296,Teknik Informatika,2019,mahasiswa.82@kampus.ac.id,2.79,https://example.com/image.jpg,Cuti
+Mahasiswa 83,D358281213,Teknik Kimia,2020,mahasiswa.83@kampus.ac.id,3.67,https://example.com/image.jpg,Sedang TA
+Mahasiswa 84,D534535052,Teknik Informatika,2020,mahasiswa.84@kampus.ac.id,3.67,https://example.com/image.jpg,Aktif
+Mahasiswa 85,D800047373,Teknik Arsitektur,2023,mahasiswa.85@kampus.ac.id,3.66,https://example.com/image.jpg,Lulus
+Mahasiswa 86,D936611391,Teknik Arsitektur,2022,mahasiswa.86@kampus.ac.id,2.81,https://example.com/image.jpg,Lulus
+Mahasiswa 87,D998034381,Teknik Elektro,2021,mahasiswa.87@kampus.ac.id,3.52,https://example.com/image.jpg,Magang
+Mahasiswa 88,D319680356,Teknik Lingkungan,2021,mahasiswa.88@kampus.ac.id,3.29,https://example.com/image.jpg,Cuti
+Mahasiswa 89,D856337180,Teknik Kimia,2022,mahasiswa.89@kampus.ac.id,3.64,https://example.com/image.jpg,Aktif
+Mahasiswa 90,D992301170,Teknik Industri,2021,mahasiswa.90@kampus.ac.id,3.36,https://example.com/image.jpg,Sedang TA
+Mahasiswa 91,D989674939,Teknik Kimia,2019,mahasiswa.91@kampus.ac.id,2.81,https://example.com/image.jpg,Magang
+Mahasiswa 92,D892178245,Teknik Elektro,2021,mahasiswa.92@kampus.ac.id,3.82,https://example.com/image.jpg,Sedang TA
+Mahasiswa 93,D175531080,Teknik Sipil,2023,mahasiswa.93@kampus.ac.id,3.15,https://example.com/image.jpg,Magang
+Mahasiswa 94,D822793802,Teknik Informatika,2023,mahasiswa.94@kampus.ac.id,2.92,https://example.com/image.jpg,Magang
+Mahasiswa 95,D684404506,Teknik Arsitektur,2021,mahasiswa.95@kampus.ac.id,3.56,https://example.com/image.jpg,Magang
+Mahasiswa 96,D204677381,Teknik Lingkungan,2021,mahasiswa.96@kampus.ac.id,3.55,https://example.com/image.jpg,Lulus
+Mahasiswa 97,D847232474,Teknik Mesin,2021,mahasiswa.97@kampus.ac.id,3.67,https://example.com/image.jpg,Sedang TA
+Mahasiswa 98,D325911311,Teknik Mesin,2020,mahasiswa.98@kampus.ac.id,3.63,https://example.com/image.jpg,Lulus
+Mahasiswa 99,D222726328,Teknik Elektro,2019,mahasiswa.99@kampus.ac.id,3.73,https://example.com/image.jpg,Aktif
+Mahasiswa 100,D230201659,Teknik Industri,2020,mahasiswa.100@kampus.ac.id,3.59,https://example.com/image.jpg,Sedang TA
+Mahasiswa 101,D941746860,Teknik Elektro,2020,mahasiswa.101@kampus.ac.id,2.73,https://example.com/image.jpg,Aktif
+Mahasiswa 102,D823125347,Teknik Informatika,2022,mahasiswa.102@kampus.ac.id,3.25,https://example.com/image.jpg,Magang
+Mahasiswa 103,D607107463,Teknik Elektro,2019,mahasiswa.103@kampus.ac.id,2.81,https://example.com/image.jpg,Cuti
+Mahasiswa 104,D154490499,Teknik Mesin,2023,mahasiswa.104@kampus.ac.id,3.33,https://example.com/image.jpg,Cuti
+Mahasiswa 105,D609310982,Teknik Lingkungan,2019,mahasiswa.105@kampus.ac.id,3.77,https://example.com/image.jpg,Aktif
+Mahasiswa 106,D449533496,Teknik Kimia,2022,mahasiswa.106@kampus.ac.id,3.36,https://example.com/image.jpg,Cuti
+Mahasiswa 107,D191646925,Teknik Informatika,2019,mahasiswa.107@kampus.ac.id,2.82,https://example.com/image.jpg,Sedang TA
+Mahasiswa 108,D375738632,Teknik Lingkungan,2019,mahasiswa.108@kampus.ac.id,3.46,https://example.com/image.jpg,Cuti
+Mahasiswa 109,D207551868,Teknik Kimia,2021,mahasiswa.109@kampus.ac.id,3.02,https://example.com/image.jpg,Sedang TA
+Mahasiswa 110,D757154870,Teknik Elektro,2022,mahasiswa.110@kampus.ac.id,3.19,https://example.com/image.jpg,Cuti
+Mahasiswa 111,D268428692,Teknik Sipil,2022,mahasiswa.111@kampus.ac.id,3.71,https://example.com/image.jpg,Aktif
+Mahasiswa 112,D325553270,Teknik Mesin,2023,mahasiswa.112@kampus.ac.id,2.9,https://example.com/image.jpg,Magang
+Mahasiswa 113,D758232414,Teknik Mesin,2021,mahasiswa.113@kampus.ac.id,3.71,https://example.com/image.jpg,Cuti
+Mahasiswa 114,D584946480,Teknik Informatika,2020,mahasiswa.114@kampus.ac.id,3.05,https://example.com/image.jpg,Cuti
+Mahasiswa 115,D760208765,Teknik Informatika,2021,mahasiswa.115@kampus.ac.id,2.82,https://example.com/image.jpg,Magang
+Mahasiswa 116,D429354819,Teknik Lingkungan,2022,mahasiswa.116@kampus.ac.id,2.73,https://example.com/image.jpg,Lulus
+Mahasiswa 117,D108385233,Teknik Sipil,2023,mahasiswa.117@kampus.ac.id,2.87,https://example.com/image.jpg,Cuti
+Mahasiswa 118,D824703141,Teknik Lingkungan,2020,mahasiswa.118@kampus.ac.id,3.68,https://example.com/image.jpg,Cuti
+Mahasiswa 119,D177205470,Teknik Arsitektur,2019,mahasiswa.119@kampus.ac.id,3.45,https://example.com/image.jpg,Aktif
+Mahasiswa 120,D118434730,Teknik Arsitektur,2019,mahasiswa.120@kampus.ac.id,3.79,https://example.com/image.jpg,Lulus
+Mahasiswa 121,D157004889,Teknik Arsitektur,2023,mahasiswa.121@kampus.ac.id,2.71,https://example.com/image.jpg,Cuti
+Mahasiswa 122,D356837818,Teknik Arsitektur,2022,mahasiswa.122@kampus.ac.id,3.16,https://example.com/image.jpg,Lulus
+Mahasiswa 123,D831491829,Teknik Mesin,2021,mahasiswa.123@kampus.ac.id,3.47,https://example.com/image.jpg,Sedang TA
+Mahasiswa 124,D537325725,Teknik Lingkungan,2022,mahasiswa.124@kampus.ac.id,2.69,https://example.com/image.jpg,Cuti
+Mahasiswa 125,D405007788,Teknik Elektro,2022,mahasiswa.125@kampus.ac.id,3.05,https://example.com/image.jpg,Cuti
