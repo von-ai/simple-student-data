@@ -1,7 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { Input, jurusanList } from '../types/form-fields-type';
-import { Filter } from '../types/tabel-data-type';
 
 type TabelDataProps = {
   data: Input[];

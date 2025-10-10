@@ -7,7 +7,7 @@ INSTRUKSI SETUP & PENGGUNAAN APLIKASI DATA MAHASISWA
 ---
 
 - Node.js v18.x atau lebih baru (https://nodejs.org/)
-- pnpm (https://pnpm.io/)
+- pnpm (https://pnpm.io/) 
 - Git (https://git-scm.com/)
 
 2. CLONE REPOSITORY
@@ -85,9 +85,7 @@ Buka browser ke http://localhost:3000
 - Jika ingin reset data, refresh halaman atau gunakan tombol "Hapus Semua Data".
 
 8. TECH STACK
-
----
-
+--------------
 - **Framework:** Next.js (React 18)
 - **Bahasa:** TypeScript
 - **Styling:** Tailwind CSS

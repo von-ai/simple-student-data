@@ -77,8 +77,13 @@ const Heading: React.FC<HeadingProps> = ({ data, onImport }) => {
   const handlePrint = () => {
     const doc = new jsPDF();
 
+    const pageWidth = doc.internal.pageSize.getWidth();
+    doc.setFontSize(16);
+    doc.text('Daftar Data Mahasiswa', pageWidth / 2, 15, { align: 'center' });
+
     autoTable(doc, {
-      head: [['Nama', 'NIM', 'Jurusan', 'Angkatan', 'Email', 'IPK']],
+      startY: 25,
+      head: [['Nama', 'NIM', 'Jurusan', 'Angkatan', 'Email', 'IPK', 'Catatan']],
       body: data.map((mhs) => [
         mhs.nama,
         mhs.nim,
@@ -86,6 +91,7 @@ const Heading: React.FC<HeadingProps> = ({ data, onImport }) => {
         mhs.angkatan,
         mhs.email,
         mhs.ipk,
+        mhs.catatan,
       ]),
     });
 
